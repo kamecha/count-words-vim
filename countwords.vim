@@ -3,7 +3,7 @@
 "エンコーディング指定
 scriptencoding utf-8
 
-すでにスクリプトをロードした場合は終了
+"すでにスクリプトをロードした場合は終了
 if exists('g:loaded_countwords')
     finish
 endif
