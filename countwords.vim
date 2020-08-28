@@ -3,11 +3,11 @@
 "エンコーディング指定
 scriptencoding utf-8
 
-"すでにスクリプトをロードした場合は終了
-"if exists('g:loaded_countwords')
-"    finish
-"endif
-"let g:loaded_countwords = 1
+すでにスクリプトをロードした場合は終了
+if exists('g:loaded_countwords')
+    finish
+endif
+let g:loaded_countwords = 1
 
 let s:save_cpo = &cpo
 set cpo&vim
